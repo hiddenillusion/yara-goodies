@@ -194,7 +194,7 @@ def yaratize_xrat(ofile, rule, vals):
             pairs = [r[i:i+2] for i in range(0, len(r), 2)]
             s = " $xor_%s = {" % k
             for pair in pairs:
-                s += " %2.2s " % pair
+                s += "%2.2s" % pair
             s += "}"
             rules.write(s)
             rules.write(" condition:")
