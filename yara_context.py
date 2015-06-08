@@ -3,6 +3,7 @@ import sys
 import yara
 import argparse
 
+# based on script from @jprosco
 '''
 def create_rules(dbfile):
     """
